@@ -1,0 +1,5 @@
+# Add lint files here
+node_modules
+.vscode
+.stylelintrc.json
+.hintrc
