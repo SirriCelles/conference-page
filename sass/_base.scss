@@ -1,0 +1,41 @@
+// css variables
+:root {
+  --color-white: #ffffff;
+  --color-background-dark: #fafafa;
+  --color-background-light:
+  --color-primary: #EC5242;
+  --color-dark: #272A31;
+  --color-light: #D3D3D3;
+
+}
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--color-background);
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  @include xm {
+    font-size: 1.2rem;
+  }
+}
