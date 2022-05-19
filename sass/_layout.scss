@@ -1,0 +1,13 @@
+//////
+// WORKS LAYOUT
+
+.section {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 55.2rem 59.6rem 58.2rem 62rem;
+  justify-items: center;
+
+  & > * {
+    background-color: var(--color-white);
+  }
+}
