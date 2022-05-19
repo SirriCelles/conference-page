@@ -1,0 +1,23 @@
+.top {
+  @include xm {
+    display: none;
+  }
+
+  background-color: var(--color-dark);
+  color: var(--color-white);
+
+  &__nav-link {
+
+  }
+
+  &__nav-icon {
+    height: 2rem;
+    width: 2rem;
+    color: inherit;
+  }
+
+}
+
+.nav  {
+
+}
