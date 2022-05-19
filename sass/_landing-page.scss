@@ -1,5 +1,5 @@
 main {
-  background: url('../assets/img/mobile-home.png') no-repeat center center;
+  background: url('../assets/img/mobile-home.png') no-repeat top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -119,6 +119,7 @@ main {
 
 .landing {
   color: var(--color-text);
+  margin-top: 2rem;
 
   header {
     color: var(--color-primary);
