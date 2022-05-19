@@ -37,21 +37,20 @@ a {
   cursor: pointer; }
 
 main {
-  height: 80vh;
   background: url("../assets/img/mobile-home.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding: 0 1.2rem; }
-  @media (max-width: 767px) {
+  @media (min-width: 768px) {
     main {
       height: 70vh; } }
 
-@media (max-width: 767px) {
-  header {
-    padding: 0 0.5rem;
-    margin-top: 1rem; } }
+.nav-header {
+  padding: 0 0.5rem;
+  margin-top: 1rem;
+  height: 13%; }
 
 .top {
   display: flex;
@@ -135,21 +134,23 @@ main {
     font-size: 2.5rem;
     line-height: 4.4rem; }
   .landing h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 4.4rem;
+    line-height: 5.5rem;
     font-family: 'COCOGOOSE';
     font-weight: normal;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    height: 17rem; }
   .landing__text {
     border: 3px solid var(--color-white);
     color: var(--color-dark-light);
-    padding: 1rem 2rem;
+    padding: 2rem 3rem;
     text-align: justify;
     background-color: var(--color-background-dark);
-    margin: 2.5rem 0 3rem 0; }
+    margin: 2.5rem 0 3rem 0;
+    width: 85%; }
   .landing__date {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     font-size: 2rem;
     font-family: 'COCOGOOSE';
@@ -160,7 +161,7 @@ main {
     letter-spacing: 2px; }
   .landing__text-end {
     color: var(--color-header-text);
-    margin: 1.2rem 0; }
+    margin: 1.6rem; }
 
 .tilder {
   margin-bottom: -2rem;
