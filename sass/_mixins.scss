@@ -1,0 +1,20 @@
+
+// Media quesries implimentation two
+$screen-xm-max: 768px;
+
+$screen-lg-min: 768px;
+
+
+@mixin xm {
+  @media (max-width: #{$screen-xm-max - 1px}) {
+    @content;
+  }
+}
+
+
+@mixin lg {
+  @media (min-width: #{$screen-xm-max}) {
+    @content;
+  }
+}
+
