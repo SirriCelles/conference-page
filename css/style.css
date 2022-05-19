@@ -36,14 +36,6 @@ a {
   text-decoration: none;
   cursor: pointer; }
 
-.section {
-  display: grid;
-  width: 100%;
-  grid-template-rows: repeat(4, 1fr);
-  justify-items: center; }
-  .section > * {
-    background-color: var(--color-white); }
-
 main {
   background: url("../assets/img/mobile-home.png") no-repeat top;
   -webkit-background-size: cover;
@@ -222,3 +214,7 @@ main {
     color: var(--color-white);
     font-size: 2rem;
     font-weight: 700; }
+
+.speaker {
+  background-color: var(--color-white);
+  color: var(--color-text); }
