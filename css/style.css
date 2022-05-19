@@ -217,4 +217,62 @@ main {
 
 .speaker {
   background-color: var(--color-white);
-  color: var(--color-text); }
+  color: var(--color-text);
+  padding: 3rem 1.4rem; }
+  .speaker__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; }
+  .speaker__image {
+    flex: 0 0 30%;
+    align-self: baseline;
+    position: relative;
+    margin-top: 2rem; }
+  .speaker__image-icon {
+    width: 7rem;
+    height: 7rem; }
+  .speaker__image-user {
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    width: 12rem;
+    height: 12rem; }
+  .speaker__wrapper-text {
+    text-align: justify;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin: 1.2rem 0; }
+  .speaker__text-header {
+    font-weight: 700; }
+  .speaker__text-qoute {
+    font-style: italic;
+    color: var(--color-primary);
+    margin-top: 0.8rem; }
+  .speaker__text {
+    font-size: 1.2rem;
+    line-height: 1.8rem; }
+  .speaker hr {
+    border: 1px solid var(--color-light);
+    margin: .8rem 0;
+    width: 2rem;
+    color: var(--color-light); }
+  .speaker__btn-link {
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3% 17%;
+    max-width: 700px;
+    display: block;
+    margin: 4rem 2rem 1rem 2rem;
+    border: 1px solid var(--color-light);
+    color: var(--color-text);
+    text-align: center;
+    display: flex;
+    justify-content: center; }
+  .speaker__btn-icon {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--color-primary);
+    margin-top: 0.2rem; }
