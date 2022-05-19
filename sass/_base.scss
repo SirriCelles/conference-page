@@ -23,7 +23,16 @@ html {
 }
 
 body {
-  background-color: var(--color-background);
+  background-color: var(--color-background-dark);
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  @include xm {
+    font-size: 1.2rem;
+  }
+
 }
 
 
