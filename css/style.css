@@ -249,7 +249,8 @@ main {
     font-size: 2rem;
     font-weight: 700; }
   .program__item-text {
-    text-align: justify; }
+    text-align: justify;
+    line-height: 2rem; }
     @media (min-width: 768px) {
       .program__item-text {
         text-align: center;
@@ -318,7 +319,7 @@ main {
     text-align: justify;
     font-size: 1.4rem;
     line-height: 2rem;
-    margin: 1.2rem 0; }
+    margin: 1.2rem 1.5rem 1.2rem 0; }
     @media (min-width: 768px) {
       .speaker__wrapper-text {
         width: 61%; } }
