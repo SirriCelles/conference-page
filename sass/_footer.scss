@@ -1,8 +1,31 @@
 ////Footer page
 
 .partner {
+  background-color: var(--color-bck);
+  padding: 4rem 0;
   @include xm {
     display: none;
+  }
+
+  &__header {
+    color: var(--color-white);
+  }
+
+  &__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 1rem auto;
+    gap: 1rem;
+  }
+
+  &__icon {
+    width: 10rem;
+    height: 10rem;
+    fill: #8d8d8d;
+    padding: 1rem;
   }
 }
 
@@ -10,4 +33,8 @@
   @include xm {
     display: none;
   }
+  text-align: center;
+  padding: 3rem;
+  color: var(--color-dark-light);
+  background-color: var(--color-background-dark);
 }

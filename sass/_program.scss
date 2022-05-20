@@ -106,6 +106,16 @@
   background-color: var(--color-white);
   color: var(--color-text);
   padding: 3rem 1.4rem;
+  &__speakers-wrapper{
+    @include lg {
+      width: 70%;
+      margin: 1rem auto;
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      padding-bottom: 10rem;
+    }
+  }
   &__wrapper{
     display: flex;
     justify-content: center;
@@ -118,6 +128,9 @@
     align-self: baseline;
     position: relative;
     margin-top: 2rem;
+    @include lg {
+      flex: 0 0 20%;
+    }
   }
 
   &__image-icon {
@@ -138,9 +151,15 @@
     font-size: 1.4rem;
     line-height: 2rem;
     margin: 1.2rem 0;
+    @include lg {
+      width: 61%;
+    }
   }
   &__text-header{
     font-weight: 700;
+    @include lg {
+      margin-top: 2.5rem;
+    }
   }
   &__text-qoute{
     font-style: italic;
@@ -161,7 +180,9 @@
   }
 
   &__btn-wrapper{
-
+    @include lg {
+      display: none;
+    }
   }
 
   &__btn-link{
