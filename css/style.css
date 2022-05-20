@@ -45,12 +45,18 @@ main {
   padding: 0 2.4rem; }
   @media (min-width: 768px) {
     main {
-      height: 70vh; } }
+      padding: 0;
+      background: url("../assets/img/backrn-img.png") no-repeat top; } }
 
 .nav-header {
   padding: 0 0.5rem;
   margin-top: 1rem;
   height: 13%; }
+  @media (min-width: 768px) {
+    .nav-header {
+      padding: 0;
+      margin: 0;
+      height: 22%; } }
 
 .top {
   display: flex;
@@ -129,11 +135,19 @@ main {
 .landing {
   color: var(--color-text);
   margin-top: 2rem; }
+  @media (min-width: 768px) {
+    .landing {
+      width: 70%;
+      margin: 2rem auto; } }
   .landing header {
     color: var(--color-primary); }
   .landing__hello {
     font-size: 2.5rem;
     line-height: 4.4rem; }
+    @media (min-width: 768px) {
+      .landing__hello {
+        font-size: 5rem;
+        line-height: 9.4rem; } }
   .landing h1 {
     font-size: 4.4rem;
     line-height: 5.5rem;
@@ -141,6 +155,12 @@ main {
     font-weight: normal;
     letter-spacing: 1px;
     height: 19.5rem; }
+    @media (min-width: 768px) {
+      .landing h1 {
+        font-size: 9rem;
+        line-height: 11.5rem;
+        width: 80%;
+        height: 100%; } }
   .landing__text {
     border: 3px solid var(--color-white);
     color: var(--color-dark-light);
@@ -149,9 +169,11 @@ main {
     background-color: var(--color-background-dark);
     margin: 2.5rem 0 3rem 0;
     width: 90%; }
+    @media (min-width: 768px) {
+      .landing__text {
+        width: 59%; } }
   .landing__date {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     font-size: 2rem;
     font-family: 'COCOGOOSE';
@@ -160,13 +182,25 @@ main {
     text-align: center;
     padding: 0 2rem;
     letter-spacing: 2px; }
+    @media (min-width: 768px) {
+      .landing__date {
+        font-size: 4.5rem; } }
   .landing__text-end {
     color: var(--color-header-text);
     margin: 1.6rem; }
+    @media (min-width: 768px) {
+      .landing__text-end {
+        margin: 3rem;
+        font-size: 2.2rem;
+        font-weight: 500;
+        margin-bottom: 9rem; } }
 
 .tilder {
   margin-bottom: -2rem;
   padding: 1rem; }
+  @media (min-width: 768px) {
+    .tilder {
+      margin-bottom: -4rem; } }
 
 .border-line {
   text-align: center;
@@ -179,6 +213,9 @@ main {
   padding: 3rem 1.4rem;
   color: var(--color-white);
   text-align: center; }
+  @media (min-width: 768px) {
+    .program {
+      height: 53rem; } }
   .program__header {
     display: flex;
     flex-direction: column;
@@ -187,6 +224,11 @@ main {
     text-align: center;
     padding: 1.2rem;
     margin-bottom: 2.2rem; }
+  @media (min-width: 768px) {
+    .program__items-wrapper {
+      display: flex;
+      justify-content: center;
+      gap: .5rem; } }
   .program__items {
     background-color: rgba(245, 245, 245, 0.1);
     display: flex;
@@ -195,18 +237,30 @@ main {
     margin-bottom: 1.5rem;
     padding: 2rem;
     gap: 2rem; }
+    @media (min-width: 768px) {
+      .program__items {
+        flex-direction: column;
+        gap: .8rem;
+        max-width: 21rem;
+        max-height: 27rem; } }
   .program__item-header {
     color: var(--color-primary);
     font-size: 2rem;
     font-weight: 700; }
   .program__item-text {
     text-align: justify; }
+    @media (min-width: 768px) {
+      .program__item-text {
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.5rem; } }
   .program__join-wrapper {
     margin-top: 16%;
     margin-bottom: 10%; }
+    @media (min-width: 768px) {
+      .program__join-wrapper {
+        display: none; } }
   .program__join-button {
-    text-decoration: none;
-    cursor: pointer;
     text-align: center;
     line-height: 3rem;
     padding: 6% 18%;
@@ -214,6 +268,16 @@ main {
     color: var(--color-white);
     font-size: 2rem;
     font-weight: 700; }
+  .program__seeprgram-wrapper {
+    margin-top: 3%; }
+  .program__see-program {
+    color: var(--color-light);
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: underline; }
+    @media (max-width: 767px) {
+      .program__see-program {
+        display: none; } }
 
 .speaker {
   background-color: var(--color-white);

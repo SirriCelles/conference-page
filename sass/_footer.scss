@@ -1,0 +1,13 @@
+////Footer page
+
+.partner {
+  @include xm {
+    display: none;
+  }
+}
+
+.footer {
+  @include xm {
+    display: none;
+  }
+}
