@@ -1,0 +1,93 @@
+#about-landing {
+  header {
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  a{
+    text-decoration: underline;
+    font-weight: 700;
+    color: var(--color-dark);
+  }
+  .landing__text {
+    text-align: center;
+    width: 99%;
+    margin: .5rem 0 3rem 0;
+  }
+  .landing__text-end{
+    text-align: center;
+  }
+}
+
+.about-program{
+  background-color: var(--color-white);
+  padding: 1rem 2.4rem;
+  height: 24rm;
+  color: var(--color-dark);
+  h2{
+    color: var(--color-dark);
+    margin-top: 2.5rem;
+  }
+
+  &__text {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+}
+
+.events{
+  padding: 2.4rem;
+  background-color: var(--color-white);
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  &__one{
+    height: 20rem;
+    width: 100%;
+    background-image:linear-gradient(to right bottom, rgba(#ec5242, 0.801), rgba(#ec5242, 0.801)), url("../assets//img/group-pic.jpeg"); /* W3C */
+    // background-image:linear-gradient(to right bottom, rgba(var(--color-primary), 0.801)), url("../assets/img/group-pic.jpeg");
+    border: 1px solid red;
+
+    text-align: center;
+    position: relative;
+  }
+
+  &__bg-image{
+    color: var(--color-white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+.about__line {
+  width: 100%;
+  border: 1px solid var(--color-light);
+}
+
+#about-partner{
+  .partner {
+    padding: 2rem;
+  }
+
+  .program__header{
+    margin-bottom: 0;
+  }
+  .partner__icon{
+    width: 5rem;
+    height: 5rem;
+    gap: 1rem;
+  }
+
+  .partner__wrapper{
+    width: 90%;
+    margin: 0rem auto;
+  }
+}

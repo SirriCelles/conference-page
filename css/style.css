@@ -393,3 +393,75 @@ main {
   @media (max-width: 767px) {
     .footer {
       display: none; } }
+
+#about-landing header {
+  text-align: center; }
+
+#about-landing p {
+  text-align: center; }
+
+#about-landing a {
+  text-decoration: underline;
+  font-weight: 700;
+  color: var(--color-dark); }
+
+#about-landing .landing__text {
+  text-align: center;
+  width: 99%;
+  margin: .5rem 0 3rem 0; }
+
+#about-landing .landing__text-end {
+  text-align: center; }
+
+.about-program {
+  background-color: var(--color-white);
+  padding: 1rem 2.4rem;
+  height: 24rm;
+  color: var(--color-dark); }
+  .about-program h2 {
+    color: var(--color-dark);
+    margin-top: 2.5rem; }
+  .about-program__text {
+    text-align: center;
+    margin-bottom: 5rem; }
+
+.events {
+  padding: 2.4rem;
+  background-color: var(--color-white); }
+  .events__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; }
+  .events__one {
+    height: 20rem;
+    width: 100%;
+    background-image: linear-gradient(to right bottom, rgba(236, 82, 66, 0.801), rgba(236, 82, 66, 0.801)), url("../assets//img/group-pic.jpeg");
+    /* W3C */
+    border: 1px solid red;
+    text-align: center;
+    position: relative; }
+  .events__bg-image {
+    color: var(--color-white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.about__line {
+  width: 100%;
+  border: 1px solid var(--color-light); }
+
+#about-partner .partner {
+  padding: 2rem; }
+
+#about-partner .program__header {
+  margin-bottom: 0; }
+
+#about-partner .partner__icon {
+  width: 5rem;
+  height: 5rem;
+  gap: 1rem; }
+
+#about-partner .partner__wrapper {
+  width: 90%;
+  margin: 0rem auto; }
