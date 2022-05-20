@@ -225,6 +225,9 @@ main {
 }
 
 .small-break {
+  display: block;
+  padding: 0;
+  margin: 0;
   @include lg {
     display: none;
   }
