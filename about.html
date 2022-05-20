@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <main class="about">
+    <main class="about" id="landingPage">
+      <div class="show-background">&nbsp;</div>
       <header class="nav-header">
         <nav>
           <!-- top nav start -->
@@ -34,8 +35,21 @@
             <svg class="nav__menu-icon">
               <use xlink:href="./assets/icons/symbol-defs.svg#icon-menu"></use>
             </svg>
+            <div class="closeicon-wrapper">
+              <div class="nav__closeicon-wrapper">
+                <a href="./index.html" class="nav__logo-small">
+                  <img
+                    src="./assets/img/Women in Tech Logo.png"
+                    alt="Women in tech logo"
+                  />
+                </a>
+                <svg class="nav__closeicon">
+                  <use xlink:href="./assets/icons/symbol-defs.svg#icon-clear"></use>
+                </svg>
+              </div>
+            </div>
             <div class="nav__menu">
-              <a href="#" class="nav__logo">
+              <a href="./index.html" class="nav__logo">
                 <img
                   src="./assets/img/Women in Tech Logo.png"
                   alt="Women in tech logo"
@@ -47,7 +61,7 @@
                     <a href="./about.html" class="nav__list-link">About</a>
                   </li>
                   <li class="nav__list-items">
-                    <a href="" class="nav__list-link">Program</a>
+                    <a href="./index.html" class="nav__list-link">Program</a>
                   </li>
                   <li class="nav__list-items">
                     <a href="" class="nav__list-link">Join</a>
@@ -170,7 +184,5 @@
     </div>
 
     <script src="js/script.js"></script>
-    <script src="js/programs.js"></script>
-    <script src="js/speakers.js"></script>
   </body>
 </html>

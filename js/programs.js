@@ -39,43 +39,43 @@ const speakers = [
     imageIcon: './assets/img/chess.jpg',
     imageUser: './assets/img/Rebecca-Enonchong-780x780.jpg',
     header: 'Rebecca-Enonchong',
-    qoute: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore?',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eum laboriosam exercitationem dolorem cupiditate voluptate'
+    qoute: 'Founder and Chief Executive Officer of AppsTech, a leading global provider of enterprise application solutions.',
+    text: 'The main obstacle to the digital revolution in Africa is the reluctance of political leaders'
   },
   {
     imageIcon: './assets/img/chess.jpg',
     imageUser: './assets/img/estelle.jpeg',
-    header: 'Estelle Youmba',
-    qoute: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore?',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eum laboriosam exercitationem dolorem cupiditate voluptate'
+    header: 'Estelle Yomba',
+    qoute: 'Social Entrepreneur with an unquenchable passion for quality Education.',
+    text: 'African Top entrepreneurs have the responsibilty to transfer professional know how by identifying, showcasing and moulding young African innovators ready to break records in transforming our rich continent'
   },
   {
     imageIcon: './assets/img/chess.jpg',
     imageUser: './assets/img/Faith.webp',
     header: 'Mpara Faith',
-    qoute: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore?',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eum laboriosam exercitationem dolorem cupiditate voluptate'
+    qoute: 'Mpara Faith is the co-founder and Operations manager of New Generation Technologies (NGT), ',
+    text: 'I am a Product Manager that enjoys empowering students with delightful and consistent learning experiences.'
   },
   {
     imageIcon: './assets/img/chess.jpg',
     imageUser: './assets/img/jihu.jpeg',
-    header: 'Rebecca-Enonchong',
-    qoute: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore?',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eum laboriosam exercitationem dolorem cupiditate voluptate'
+    header: 'Jihan Abass',
+    qoute: 'Founder and CEO of Lami,  an insurance as a service platform that aims to increase insurance penetration across Africa.',
+    text: 'For us it is really exciting to be able to get insurance companies to start looking at things in a different way, and also to provide [end customers] with products without any friction whatsoever in the process'
   },
   {
     imageIcon: './assets/img/chess.jpg',
     imageUser: './assets/img/mihan.jpeg',
-    header: 'Rebecca-Enonchong',
-    qoute: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore?',
+    header: 'Miishe Addy',
+    qoute: ' co-founder and CEO of Jetstream Africa, a technology-enabled logistics company focusing on cross-border trade in Ghana.',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eum laboriosam exercitationem dolorem cupiditate voluptate'
   },
   {
     imageIcon: './assets/img/chess.jpg',
     imageUser: './assets/img/user.jpg',
-    header: 'Rebecca-Enonchong',
-    qoute: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore?',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eum laboriosam exercitationem dolorem cupiditate voluptate'
+    header: 'Sirri Celles',
+    qoute: 'Aspiring Fullstack developer.',
+    text: 'The purpose of our lives is to be happy. As developers apprecaite every step of the journey because you make lot of people happy.'
   }
 ];
 

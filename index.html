@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <main>
+    <main id="landingPage">
+      <div class="show-background">&nbsp;</div>
       <header class="nav-header">
         <nav>
           <!-- top nav start -->
@@ -34,6 +35,19 @@
             <svg class="nav__menu-icon">
               <use xlink:href="./assets/icons/symbol-defs.svg#icon-menu"></use>
             </svg>
+            <div class="closeicon-wrapper">
+              <div class="nav__closeicon-wrapper">
+                <a href="./index.html" class="nav__logo-small">
+                  <img
+                    src="./assets/img/Women in Tech Logo.png"
+                    alt="Women in tech logo"
+                  />
+                </a>
+                <svg class="nav__closeicon">
+                  <use xlink:href="./assets/icons/symbol-defs.svg#icon-clear"></use>
+                </svg>
+              </div>
+            </div>
             <div class="nav__menu">
               <a href="./index.html" class="nav__logo">
                 <img
@@ -47,17 +61,18 @@
                     <a href="./about.html" class="nav__list-link">About</a>
                   </li>
                   <li class="nav__list-items">
-                    <a href="" class="nav__list-link">Program</a>
+                    <a href="#program-page" class="nav__list-link">Program</a>
                   </li>
                   <li class="nav__list-items">
-                    <a href="" class="nav__list-link">Join</a>
+                    <a href="#speaker-page" class="nav__list-link">Join</a>
                   </li>
                   <li class="nav__list-items">
-                    <a href="" class="nav__list-link">Sponsor</a>
+                    <a href="#partner-page" class="nav__list-link">Sponsor</a>
                   </li>
                   <li class="nav__list-items">
-                    <a href="" programs.jsclass="nav__list-link">News</a>
+                    <a href="" class="nav__list-link">News</a>
                   </li>
+                  <br class="small-break">
                   <li class="nav__list-items">
                     <a href="" class="nav__list-link list-button"
                       >CC Campaign</a
@@ -82,9 +97,9 @@
             Women in Tech® is an international non-profit organization on a mission to close the gender gap and to help women embrace technology. We promote girls’ and women’s empowerment around the world, with a focus on Sustainable Development Goal 5b: harnessing technologies.
           </p>
           <div class="landing__date">
-            <span>2022.6.15(THU)</span>
+            <span>2022.12.15(THU)</span>
             <span class="tilder">&tilde;</span>
-            <span>16(FRI)</span>
+            <span>20(FRI)</span>
           </div>
           <p class="landing__text-end">&#64; National Museum of Califonia, Art Center and more</p>
           <br><br>
@@ -93,7 +108,7 @@
 
     <div class="section">
       <!-- Program -->
-      <div class="program">
+      <div class="program" id="program-page">
         <h2 class="program__header">
           <span>Main Program</span>
           <span class="border-line">&nbsp;</span>
@@ -113,7 +128,7 @@
       </div>
 
       <!-- speakers -->
-      <div class="speaker">
+      <div class="speaker" id="speaker-page">
         <h2 class="program__header">
           <span>Featured Speakers</span>
           <span class="border-line">&nbsp;</span>
@@ -131,7 +146,7 @@
       </div>
 
       <!-- partner -->
-      <div class="partner">
+      <div class="partner" id="partner-page">
         <h2 class="program__header">
           <span class="partner__header">Partner</span>
           <span class="border-line">&nbsp;</span>
@@ -192,6 +207,5 @@
 
     <script src="js/script.js"></script>
     <script src="js/programs.js"></script>
-    <script src="js/speakers.js"></script>
   </body>
 </html>
