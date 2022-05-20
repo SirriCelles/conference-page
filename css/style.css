@@ -387,9 +387,6 @@ main {
     @media (max-width: 767px) {
       .program__see-program {
         display: none; } }
-    .program__see-program:hover {
-      transform: scale(1) translateY(1px);
-      transition: all 0.2s; }
 
 .speaker {
   background-color: var(--color-white);

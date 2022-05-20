@@ -103,11 +103,6 @@
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: underline;
-
-    &:hover {
-      transform: scale(1) translateY(1px);
-      transition: all 0.2s;
-    }
   }
 }
 
