@@ -222,7 +222,7 @@ main {
   .list-button:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
-    transition: all .2s ease-in; }
+    transition: all 0.2s ease-in; }
 
 .small-break {
   display: block;
@@ -389,7 +389,7 @@ main {
         display: none; } }
     .program__see-program:hover {
       transform: scale(1) translateY(1px);
-      transition: all .2s; }
+      transition: all 0.2s; }
 
 .speaker {
   background-color: var(--color-white);
