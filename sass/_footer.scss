@@ -3,6 +3,7 @@
 .partner {
   background-color: var(--color-bck);
   padding: 4rem 0;
+
   @include xm {
     display: none;
   }
@@ -11,7 +12,7 @@
     color: var(--color-white);
   }
 
-  &__wrapper{
+  &__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -33,6 +34,7 @@
   @include xm {
     display: none;
   }
+
   text-align: center;
   padding: 3rem;
   color: var(--color-dark-light);

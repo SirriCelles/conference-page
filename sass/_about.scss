@@ -2,53 +2,66 @@
   @include lg {
     margin-top: 4% !important;
   }
+
   header {
     text-align: center;
+
     @include lg {
       height: 25rem;
     }
+
     h1 {
       text-align: center;
       width: 100%;
+
       @include lg {
         font-size: 7rem;
         line-height: 8.5rem;
       }
+
       @include xm {
         height: 19rem;
       }
 
       .h-line {
         display: block;
+
         @include xm {
           display: none;
         }
+
         width: 4rem;
         border-top: 2px solid var(--color-primary);
         margin: 0 auto;
       }
     }
   }
-  p{
+
+  p {
     text-align: center;
   }
-  a{
+
+  a {
     text-decoration: underline;
     font-weight: 700;
     color: var(--color-dark);
   }
+
   .landing__text {
     text-align: center;
     width: 99%;
-    margin: .5rem 0 3rem 0;
+    margin: 0.5rem 0 3rem 0;
+
     @include lg {
       width: 57%;
       margin: 3rem auto;
       padding: 4rem 0;
     }
   }
-  .landing__text-end{
+
+  .landing__text-end {
     text-align: center;
+
     @include lg {
       width: 33%;
       margin: 1rem auto;
@@ -57,15 +70,17 @@
   }
 }
 
-.about-program{
+.about-program {
   background-color: var(--color-white);
   padding: 1rem 2.4rem;
-  height: 24rm;
+  height: 43rem;
   color: var(--color-dark);
+
   @include lg {
     height: 30rem;
   }
-  h2{
+
+  h2 {
     color: var(--color-dark);
     margin-top: 2.5rem;
   }
@@ -73,7 +88,8 @@
   &__text {
     text-align: center;
     margin-bottom: 5rem;
-    @include lg{
+
+    @include lg {
       width: 50%;
       margin: 1rem auto;
       margin-bottom: 5rem;
@@ -81,9 +97,10 @@
   }
 }
 
-.events{
+.events {
   padding: 2.4rem;
   background-color: var(--color-white);
+
   @include lg {
     height: 45rem;
     padding: 2.4rem 11%;
@@ -93,19 +110,19 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
+
     @include lg {
       flex-direction: row;
       justify-content: center;
     }
   }
 
-  &__one{
+  &__one {
     height: 20rem;
     width: 100%;
-    background-image:linear-gradient(to right bottom, rgba(#ec5242, 0.801), rgba(#ec5242, 0.801)), url("../assets//img/group-pic.jpeg"); /* W3C */
+    background-image: linear-gradient(to right bottom, rgba(#ec5242, 0.801), rgba(#ec5242, 0.801)), url("../assets//img/group-pic.jpeg"); /* W3C */
     // background-image:linear-gradient(to right bottom, rgba(var(--color-primary), 0.801)), url("../assets/img/group-pic.jpeg");
     border: 1px solid red;
-
     text-align: center;
     position: relative;
 
@@ -115,14 +132,13 @@
     }
   }
 
-  &__bg-image{
+  &__bg-image {
     color: var(--color-white);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
 }
 
 .about__line {
@@ -130,27 +146,29 @@
   border: 1px solid var(--color-light);
 }
 
-#about-partner{
+#about-partner {
   display: block;
+
   .partner {
     padding: 2rem;
   }
 
-  .program__header{
+  .program__header {
     margin-bottom: 0;
   }
-  .partner__icon{
+
+  .partner__icon {
     width: 5rem;
     height: 5rem;
     gap: 1rem;
   }
 
-  .partner__wrapper{
+  .partner__wrapper {
     width: 90%;
-    margin: 0rem auto;
+    margin: 0 auto;
   }
 }
 
-#about-footer{
+#about-footer {
   display: block;
 }
