@@ -11,17 +11,18 @@
       text-align: center;
       width: 100%;
       @include lg {
-        font-size: 8rem;
-        line-height: 9.5rem;
+        font-size: 7rem;
+        line-height: 8.5rem;
       }
 
       hr {
+        @include xm {
+          display: none;
+        }
         width: 4rem;
         background-color: var(--color-primary);
         border-bottom: 2px solid var(--color-primary);
-        @include lg {
-          margin: 0 auto;
-        }
+        margin: 0 auto;
       }
     }
   }
@@ -82,6 +83,7 @@
   background-color: var(--color-white);
   @include lg {
     height: 45rem;
+    padding: 2.4rem 11%;
   }
 
   &__wrapper {
