@@ -207,6 +207,9 @@ main {
   text-align: center;
   width: 4rem;
   border-bottom: 2px solid var(--color-primary); }
+  @media (min-width: 768px) {
+    .border-line {
+      margin: 0 auto; } }
 
 .program {
   height: 100%;
@@ -394,8 +397,29 @@ main {
     .footer {
       display: none; } }
 
+@media (min-width: 768px) {
+  #about-landing {
+    margin-top: 4% !important; } }
+
 #about-landing header {
   text-align: center; }
+  @media (min-width: 768px) {
+    #about-landing header {
+      height: 25rem; } }
+  #about-landing header h1 {
+    text-align: center;
+    width: 100%; }
+    @media (min-width: 768px) {
+      #about-landing header h1 {
+        font-size: 8rem;
+        line-height: 9.5rem; } }
+    #about-landing header h1 hr {
+      width: 4rem;
+      background-color: var(--color-primary);
+      border-bottom: 2px solid var(--color-primary); }
+      @media (min-width: 768px) {
+        #about-landing header h1 hr {
+          margin: 0 auto; } }
 
 #about-landing p {
   text-align: center; }
@@ -409,29 +433,54 @@ main {
   text-align: center;
   width: 99%;
   margin: .5rem 0 3rem 0; }
+  @media (min-width: 768px) {
+    #about-landing .landing__text {
+      width: 57%;
+      margin: 3rem auto;
+      padding: 4rem 0; } }
 
 #about-landing .landing__text-end {
   text-align: center; }
+  @media (min-width: 768px) {
+    #about-landing .landing__text-end {
+      width: 33%;
+      margin: 1rem auto;
+      font-size: 1.7rem; } }
 
 .about-program {
   background-color: var(--color-white);
   padding: 1rem 2.4rem;
   height: 24rm;
   color: var(--color-dark); }
+  @media (min-width: 768px) {
+    .about-program {
+      height: 30rem; } }
   .about-program h2 {
     color: var(--color-dark);
     margin-top: 2.5rem; }
   .about-program__text {
     text-align: center;
     margin-bottom: 5rem; }
+    @media (min-width: 768px) {
+      .about-program__text {
+        width: 50%;
+        margin: 1rem auto;
+        margin-bottom: 5rem; } }
 
 .events {
   padding: 2.4rem;
   background-color: var(--color-white); }
+  @media (min-width: 768px) {
+    .events {
+      height: 45rem; } }
   .events__wrapper {
     display: flex;
     flex-direction: column;
     gap: 3rem; }
+    @media (min-width: 768px) {
+      .events__wrapper {
+        flex-direction: row;
+        justify-content: center; } }
   .events__one {
     height: 20rem;
     width: 100%;
@@ -440,6 +489,10 @@ main {
     border: 1px solid red;
     text-align: center;
     position: relative; }
+    @media (min-width: 768px) {
+      .events__one {
+        max-width: 44rem;
+        height: 25rem; } }
   .events__bg-image {
     color: var(--color-white);
     position: absolute;

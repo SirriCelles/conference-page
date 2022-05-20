@@ -2,6 +2,9 @@
   text-align: center;
   width: 4rem;
   border-bottom: 2px solid var(--color-primary);
+  @include lg {
+    margin: 0 auto;
+  }
 }
 .program {
   height: 100%;
