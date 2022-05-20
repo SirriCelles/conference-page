@@ -7,10 +7,10 @@
 ## Built With
 
 ### Languages:
-- **HTML**
-- **CSS**
-- **SCSS**
-- **JavaScript**
+- HTML
+- CSS
+- SCSS
+- JavaScript
 
 ### Technologies used:
 -  _**GIT, GITHUB, LINTERS**_
