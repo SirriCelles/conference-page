@@ -7,17 +7,19 @@
 ## Built With
 
 ### Languages:
-- **HTML**
-- **CSS**
-- **SCSS**
+- HTML
+- CSS
+- SCSS
 - JavaScript
-- Technologies used: _**GIT, GITHUB, LINTERS**_
+
+### Technologies used:
+-  _**GIT, GITHUB, LINTERS**_
 
 ## Live Demo ()
 
 This is hosted on the live demo link below.
 
-[Live Demo Link](https://sirricelles.github.io/portfolio/)
+[Live Demo Link]([https://sirricelles.github.io/portfolio/](https://sirricelles.github.io/conference-page/))
 
 ## Getting Started
 
