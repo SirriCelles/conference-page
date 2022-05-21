@@ -84,7 +84,7 @@ const programWrapper = document.querySelector('.items-wrapper');
 const speakerWrapper = document.querySelector('.speakers-wrapper');
 let count = speakers.length;
 
-window.onload = (event) => {
+window.onload = () => {
   programs.forEach((program) => {
     const item = document.createElement('div');
     item.className = 'program__items';
@@ -102,11 +102,12 @@ window.onload = (event) => {
     programWrapper.appendChild(item);
   });
 
+  const screen = Screen;
   if (screen.width < 768) {
     count = 2;
   }
 
-  for (let i = 0; i < count; i++) {
+  for (let i = 0; i < count; i += 1) {
     const item = document.createElement('div');
     item.className = 'speaker__wrapper';
     const newSpeaker = `<div class="speaker__image">
