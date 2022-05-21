@@ -629,4 +629,15 @@ main {
     margin: 0 auto; }
 
 #about-footer {
-  display: block; }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 2.4rem; }
+  #about-footer .footer__logo {
+    align-self: center;
+    text-align: center; }
+    #about-footer .footer__logo img {
+      max-width: 8rem;
+      max-height: 6rem;
+      width: 100%;
+      height: 100%; }
