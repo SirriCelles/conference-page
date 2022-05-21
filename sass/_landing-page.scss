@@ -4,7 +4,6 @@ main {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 0 2.4rem;
 
   @include lg {
     background: url('../assets/img/backrn-img.png') no-repeat top;
@@ -12,6 +11,7 @@ main {
 
   @include xm {
     position: relative;
+    padding: 0 2.4rem;
   }
 }
 

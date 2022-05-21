@@ -42,14 +42,14 @@ main {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  padding: 0 2.4rem; }
+  background-size: cover; }
   @media (min-width: 768px) {
     main {
       background: url("../assets/img/backrn-img.png") no-repeat top; } }
   @media (max-width: 767px) {
     main {
-      position: relative; } }
+      position: relative;
+      padding: 0 2.4rem; } }
 
 .padding-0 {
   padding: 0 !important;
