@@ -106,6 +106,10 @@
     padding: 2.4rem 11%;
   }
 
+  @include xm {
+    height: 61rem;
+  }
+
   &__wrapper {
     display: flex;
     flex-direction: column;

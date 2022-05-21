@@ -580,6 +580,9 @@ main {
     .events {
       height: 45rem;
       padding: 2.4rem 11%; } }
+  @media (max-width: 767px) {
+    .events {
+      height: 61rem; } }
   .events__wrapper {
     display: flex;
     flex-direction: column;
