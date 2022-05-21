@@ -26,12 +26,11 @@ main {
   }
 
   display: none;
-  max-height: 95rem;
   padding: 0;
   background: rgba(#414246, 0.95) no-repeat center;
   background-size: cover;
   max-width: 58.5rem;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   backdrop-filter: blur(5px);
   z-index: 1000;
@@ -52,6 +51,7 @@ main {
 
 .top {
   display: none;
+
   @include lg {
     display: flex;
     justify-content: right;
@@ -138,7 +138,6 @@ main {
   &__menu {
     display: none;
     padding: 0.5rem 1.2rem;
-
     justify-content: space-between;
     align-items: center;
 
@@ -146,7 +145,6 @@ main {
       display: flex;
       background-color: var(--color-white);
     }
-
   }
 
   &__menu-small {
@@ -159,7 +157,7 @@ main {
   }
 
   &__logo {
-    display:  none;
+    display: none;
     flex: 0 0 30%;
     align-self: center;
     text-align: center;
@@ -183,13 +181,12 @@ main {
   &__list {
     display: none;
     list-style: none;
-    display: flex;
     justify-content: space-around;
     align-items: center;
     margin-right: 18rem;
 
     @include lg {
-      display: block;
+      display: flex;
     }
   }
 

@@ -102,8 +102,7 @@ window.onload = () => {
     programWrapper.appendChild(item);
   });
 
-  const screen = Screen;
-  if (screen.width < 768) {
+  if (window.screen.width < 768) {
     count = 2;
   }
 
