@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <main id="landingPage">
+    <main class="about" id="landingPage">
       <div class="show-background">&nbsp;</div>
       <header class="nav-header">
         <nav>
@@ -58,16 +58,16 @@
               <div class="nav__items">
                 <ul class="nav__list">
                   <li class="nav__list-items">
-                    <a href="./about.html" class="nav__list-link">About</a>
+                    <a href="./index.html" class="nav__list-link">About</a>
                   </li>
                   <li class="nav__list-items">
-                    <a href="#program-page" class="nav__list-link">Program</a>
+                    <a href="./index.html" class="nav__list-link">Program</a>
                   </li>
                   <li class="nav__list-items">
-                    <a href="#speaker-page" class="nav__list-link">Join</a>
+                    <a href="" class="nav__list-link">Join</a>
                   </li>
                   <li class="nav__list-items">
-                    <a href="#partner-page" class="nav__list-link">Sponsor</a>
+                    <a href="" class="nav__list-link">Sponsor</a>
                   </li>
                   <li class="nav__list-items">
                     <a href="" class="nav__list-link">News</a>
@@ -86,67 +86,58 @@
         </nav>
       </header>
 
-      <section class="landing">
+      <section class="landing" id="about-landing">
           <header>
-            <div class="landing__hello">&ldquo; Hello! World &rdquo;</div>
             <h1>
-              Women In Tech Africa Summit 2022
+              <span>Women In Tech Africa Summit 2022</span>
+              <span class="h-line">&nbsp;</span>
             </h1>
           </header>
           <p class="landing__text">
-            Women in Tech® is an international non-profit organization on a mission to close the gender gap and to help women embrace technology. We promote girls’ and women’s empowerment around the world, with a focus on Sustainable Development Goal 5b: harnessing technologies.
+             The Summit will kick off in Addis Ababa. Its aim is to inform, inspire and catalyze collective efforts to reduce the gender and digital gap in STEAM by 2030.
           </p>
-          <div class="landing__date">
-            <span>2022.12.15(THU)</span>
-            <span class="tilder">&tilde;</span>
-            <span>20(FRI)</span>
-          </div>
-          <p class="landing__text-end">&#64; National Museum of Califonia, Art Center and more</p>
+          <p class="landing__text-end">
+            Please Contact WTA support for any inquiries abou the 2022 Tech Africa Tech summit at <a href="mailto:">wtm.support@gmail.com</a>
+          </p>
           <br><br>
       </section>
     </main>
 
     <div class="section">
       <!-- Program -->
-      <div class="program" id="program-page">
+      <div class="about-program">
         <h2 class="program__header">
-          <span>Main Program</span>
+          <span>About Women in Tech Africa Summit 2022</span>
           <span class="border-line">&nbsp;</span>
         </h2>
-        <div class="program__items-wrapper items-wrapper">
-        </div>
-        <div class="program__join-wrapper">
-          <a href="#" class="program__join-button">
-            Create a Reservation
-          </a>
-        </div>
-        <div class="program__seeprgram-wrapper">
-          <a href="#" class="program__see-program">
-            see the whole program
-          </a>
-        </div>
+        <p class="about-program__text">The Women in Tech Afirca Summit is a 5-day event happening from the 15th to 20th December 2022. The event will gather aproximately 300 delegates: thought leaders from business, civil society, Government and the Arts, representing 30 different countries – the Makers, Shakers, and Innovators of a new era, driven by the desire to change the status quo. The HERoes who are shaping tomorrow.</p>
       </div>
 
+      <hr class="about__line">
       <!-- speakers -->
-      <div class="speaker" id="speaker-page">
+      <div class="events">
         <h2 class="program__header">
-          <span>Featured Speakers</span>
+          <span>See Past Events</span>
           <span class="border-line">&nbsp;</span>
         </h2>
-        <div class="speaker__speakers-wrapper speakers-wrapper">
-        </div>
-        <div class="speaker__btn-wrapper">
-          <a href="#" class="speaker__btn-link">
-            <span>More</span>
-            <svg class="speaker__btn-icon">
-              <use xlink:href="./assets/icons/symbol-defs.svg#icon-keyboard_arrow_down"></use>
-            </svg>
-          </a>
+        <div class="events__wrapper">
+          <div class="events__one">
+            <div class="events__bg-image">
+              <h2>2019</h2>
+              <p>Women In Tech Africa Summit 2019</p>
+            </div>
+          </div>
+          <div class="events__one">
+            <div class="events__bg-image">
+              <h2>2019</h2>
+              <p>Women In Tech Africa Summit 2019</p>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- partner -->
-      <div class="partner" id="partner-page">
+      <div class="partner" id="about-partner">
         <h2 class="program__header">
           <span class="partner__header">Partner</span>
           <span class="border-line">&nbsp;</span>
@@ -183,18 +174,6 @@
           <svg class="partner__icon">
             <use xlink:href="./assets/icons/symbol-defs.svg#icon-microsoft"></use>
           </svg>
-          <svg class="partner__icon">
-            <use xlink:href="./assets/icons/symbol-defs.svg#icon-ibm"></use>
-          </svg>
-          <svg class="partner__icon">
-            <use xlink:href="./assets/icons/symbol-defs.svg#icon-intel"></use>
-          </svg>
-          <svg class="partner__icon">
-            <use xlink:href="./assets/icons/symbol-defs.svg#icon-redis"></use>
-          </svg>
-          <svg class="partner__icon">
-            <use xlink:href="./assets/icons/symbol-defs.svg#icon-social-twitter"></use>
-          </svg>
         </div>
       </div>
 
@@ -212,6 +191,5 @@
     </div>
 
     <script src="js/script.js"></script>
-    <script src="js/programs.js"></script>
   </body>
 </html>
