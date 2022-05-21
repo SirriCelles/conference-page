@@ -95,14 +95,14 @@
   }
 
   &__see-program {
-    @include xm {
-      display: none;
-    }
-
+    display: none;
     color: var(--color-light);
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: underline;
+    @include lg {
+      display: block;
+    }
   }
 }
 

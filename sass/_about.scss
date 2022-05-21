@@ -24,12 +24,10 @@
       }
 
       .h-line {
-        display: block;
-
-        @include xm {
-          display: none;
+        display: none;
+        @include lg {
+          display: block;
         }
-
         width: 4rem;
         border-top: 2px solid var(--color-primary);
         margin: 0 auto;
@@ -100,15 +98,13 @@
 .events {
   padding: 2.4rem;
   background-color: var(--color-white);
+  height: 61rem;
 
   @include lg {
     height: 45rem;
     padding: 2.4rem 11%;
   }
 
-  @include xm {
-    height: 61rem;
-  }
 
   &__wrapper {
     display: flex;

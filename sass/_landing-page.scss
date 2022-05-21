@@ -51,18 +51,17 @@ main {
 }
 
 .top {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  gap: 2rem;
-  padding: 0.3rem;
-  background-color: var(--color-bck);
-  color: var(--color-white);
-  font-size: 1.3rem;
-  padding-right: 24rem;
-
-  @include xm {
-    display: none;
+  display: none;
+  @include lg {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.3rem;
+    background-color: var(--color-bck);
+    color: var(--color-white);
+    font-size: 1.3rem;
+    padding-right: 24rem;
   }
 
   &__nav-link {
@@ -137,18 +136,17 @@ main {
   }
 
   &__menu {
+    display: none;
     padding: 0.5rem 1.2rem;
-    display: flex;
+
     justify-content: space-between;
     align-items: center;
 
     @include lg {
+      display: flex;
       background-color: var(--color-white);
     }
 
-    @include xm {
-      display: none;
-    }
   }
 
   &__menu-small {
@@ -161,6 +159,7 @@ main {
   }
 
   &__logo {
+    display:  none;
     flex: 0 0 30%;
     align-self: center;
     text-align: center;
@@ -172,8 +171,8 @@ main {
       height: 100%;
     }
 
-    @include xm {
-      display: none;
+    @include lg {
+      display: block;
     }
   }
 
@@ -182,14 +181,15 @@ main {
   }
 
   &__list {
+    display: none;
     list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-right: 18rem;
 
-    @include xm {
-      display: none;
+    @include lg {
+      display: block;
     }
   }
 
