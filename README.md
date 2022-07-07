@@ -1,7 +1,7 @@
 
 # Project Name
 
-> WTA Summit: Women In Tech Africa Summit. This is Bi-yearly event that aims to inform, inspire and catalyze collective efforts to reduce the gender and digital gap in STEAM in Africa by 2035.
+> WTA Summit: Women In Tech Africa Summit. This is Bi-yearly event that aims to inform, inspire and catalyze collective efforts to reduce the gender and digital gap in STEM in Africa by 2035.
 >
 ![Screenshot from 2022-05-21 01-26-56](https://user-images.githubusercontent.com/42035795/169627010-22ff7b8a-27cb-4f92-bee2-672fab40f05d.png)
 
